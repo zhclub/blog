@@ -1,4 +1,4 @@
-package com.zh.blog.core.config;
+package com.zh.blogspot.core.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -35,7 +35,7 @@ public class Swagger2Config {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("RESTful API")
-                .description("BALABALA接口测试")
+                .description("zh-blog接口测试")
                 .version("1.0")
                 .build();
     }

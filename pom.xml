@@ -24,7 +24,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>com.zh</groupId>
+        <groupId>com.zhouhao</groupId>
         <artifactId>dependencies</artifactId>
         <version>1.0-SNAPSHOT</version>
         <type>pom</type>

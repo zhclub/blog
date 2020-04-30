@@ -1,4 +1,4 @@
-package com.zh.blog.core.config.security;
+package com.zh.blogspot.core.config.security;
 
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.web.access.AccessDeniedHandler;

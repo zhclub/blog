@@ -1,4 +1,4 @@
-package com.zh.blog.api.enums;
+package com.zh.blogspot.api.enums;
 
 public enum ErrorCode {
 

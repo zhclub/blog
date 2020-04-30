@@ -19,7 +19,7 @@
         <!-- 必须的（1 required） -->
         <!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://127.0.0.1:3306/blog"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/blogspot"
                         userId="root" password="root">
         </jdbcConnection>
 
@@ -34,8 +34,8 @@
         <!-- 必须的（1 required） -->
         <!-- java模型生成器 -->
         <!-- targetProject:自动生成代码的位置 -->
-        <javaModelGenerator targetPackage="com.zh.blog.core.bean"
-                            targetProject="/Users/zhouhao/code/zhouhao/blog/core/src/main/java"
+        <javaModelGenerator targetPackage="com.zh.blogspot.core.bean"
+                            targetProject="/Users/zhouhao/zhouhao/code/blogspot/core/src/main/java"
         >
             <!-- TODO enableSubPackages:是否让schema作为包的后缀 -->
             <property name="enableSubPackages" value="false" />
@@ -45,15 +45,15 @@
 
         <!-- 必须的（1 required） -->
         <!-- map xml 生成器 -->
-        <sqlMapGenerator targetPackage="com.zh.blog.core"
-                         targetProject="/Users/zhouhao/code/zhouhao/blog/core/src/main/java">
+        <sqlMapGenerator targetPackage="com.zh.blogspot.core"
+                         targetProject="/Users/zhouhao/zhouhao/code/blogspot/core/src/main/java">
             <property name="enableSubPackages" value="false" />
         </sqlMapGenerator>
 
         <!-- 可选的（0 or 1） -->
         <!-- mapper 或者就是dao接口生成器 -->
-        <javaClientGenerator targetPackage="com.zh.blog.core.dao"
-                             targetProject="/Users/zhouhao/code/zhouhao/blog/core/src/main/java"
+        <javaClientGenerator targetPackage="com.zh.blogspot.core.dao"
+                             targetProject="/Users/zhouhao/zhouhao/code/blogspot/core/src/main/java"
                              type="XMLMAPPER">
             <property name="enableSubPackages" value="false" />
         </javaClientGenerator>

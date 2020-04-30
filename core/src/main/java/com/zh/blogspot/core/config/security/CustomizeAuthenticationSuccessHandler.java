@@ -1,4 +1,4 @@
-package com.zh.blog.core.config.security;
+package com.zh.blogspot.core.config.security;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.Authentication;

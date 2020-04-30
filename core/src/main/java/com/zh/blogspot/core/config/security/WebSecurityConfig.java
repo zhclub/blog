@@ -1,4 +1,4 @@
-package com.zh.blog.core.config.security;
+package com.zh.blogspot.core.config.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

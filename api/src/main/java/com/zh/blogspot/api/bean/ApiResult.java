@@ -1,6 +1,6 @@
-package com.zh.blog.api.bean;
+package com.zh.blogspot.api.bean;
 
-import static com.zh.blog.api.enums.ErrorCode.SUCCESS;
+import static com.zh.blogspot.api.enums.ErrorCode.SUCCESS;
 
 /**
  * 接口统计返回模型

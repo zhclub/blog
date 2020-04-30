@@ -1,8 +1,8 @@
-package com.zh.blog.core.config.security;
+package com.zh.blogspot.core.config.security;
 
 import com.google.gson.Gson;
-import com.zh.blog.api.bean.ApiResult;
-import com.zh.blog.api.enums.ErrorCode;
+import com.zh.blogspot.api.bean.ApiResult;
+import com.zh.blogspot.api.enums.ErrorCode;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;

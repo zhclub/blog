@@ -1,4 +1,4 @@
-package com.zh.blog.core.controller;
+package com.zh.blogspot.core.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 
